@@ -62,8 +62,8 @@ aside .avatar {
 }
 
 aside .avatar img {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 1px solid #ccc;
     background: #ccc;
@@ -83,12 +83,12 @@ section a:hover {
     color: #333;
   }
  section h2{
-    color: black;
+    color:  #2397DF;
     font-size: 16px;
 }
 section h3 {
     font-size: 16px;
-    color: #333;
+    color:  #2397DF;
   }
  
 .personal .item span:first-child{
@@ -133,8 +133,9 @@ main {
 main > section > .item > span{
     margin-right:80px; 
 }
-
-
+strong {
+    font-weight: bold;
+}
 @media(max-width:768px){
     header {
         padding-top: 20px;
