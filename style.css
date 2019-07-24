@@ -130,6 +130,10 @@ main {
     flex: 1;
     min-height: calc(100vh - 162px);
 }
+main > section > .item > span{
+    margin-right:80px; 
+}
+
 
 @media(max-width:768px){
     header {
@@ -144,3 +148,5 @@ main {
         height: 100px;
       }
 }  
+
+
