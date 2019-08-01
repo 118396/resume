@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    font: 16px/1.5 Arial;
+    font: 14px/1.5 Arial;
     color: #666;
     background: #efefef;
 }
@@ -74,6 +74,7 @@ section {
     margin: 30px 10px 0 20px;
     padding-bottom: 20px;
 }
+
 section a{
     text-decoration: none;
     padding: 5px;
@@ -84,21 +85,24 @@ section a:hover {
   }
  section h2{
     color:  #2397DF;
-    font-size: 16px;
 }
 section h3 {
     font-size: 16px;
     color:  #2397DF;
   }
+section > .blog > ul >li >span{
+    margin-left: 50px;
+}
  
 .personal .item span:first-child{
     display: inline-block;
-    width: 80px;
+    width: 57px;
 }
 .personal .item span:last-child::before{
     content: ':';
-    margin-right:10px; 
+    margin-right:5px; 
 }
+
 .skills .item{
     display: flex;
     /* align-items:center;  */
@@ -136,6 +140,10 @@ main > section > .item > span{
 strong {
     font-weight: bold;
 }
+.blog .item li  {
+    margin-right: 50px;
+}
+
 @media(max-width:768px){
     header {
         padding-top: 20px;
