@@ -1,0 +1,12 @@
+header{
+    background: transparent;
+}
+
+.layout {
+    width: 100vw;
+}
+
+
+main .item img {
+    display: none;
+}
