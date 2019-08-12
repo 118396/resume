@@ -90,7 +90,6 @@ section a:hover {
 }
 section h3 {
     font-size: 16px;
-    color:  #2397DF;
   }
 section > .blog > ul >li >span{
     margin-left: 50px;
@@ -160,7 +159,9 @@ strong {
     border-radius: 5px;
     background: #efefef;
 }
-
+.more .item {
+    font-size: 16px;
+}
 
 @media(max-width:768px){
     header {
