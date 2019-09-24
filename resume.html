@@ -10,7 +10,7 @@
     <title>韦虎-前端开发</title>
 </head>
 
-<body>
+<div>
     <div class="layout" id="page">
         <header>
             <h1>韦虎</h1>
@@ -26,10 +26,6 @@
                     <div class="item">
                         <span>学历</span>
                         <span>大专</span>
-                    </div>
-                    <div class="item">
-                        <span>工作经验</span>
-                        <span>1.5年</span>
                     </div>
                     <div class="item">
                         <span>年龄</span>
@@ -219,19 +215,21 @@
                     </ul>
                 </div>
                 <div class="item">
-                    <h3>快捷导航</h3>
-                    <img src="./img/keyboard.png" alt="keyboard">
+                    <h3>Music Box</h3>
+                    <img src="./img/music.png" alt="music">
                     <ul>
                         <li> <strong>项目介绍： </strong>
-                            基于<b class="highlight">原生 JavaScript</b> 结合<b class="highlight">localStorage 在线存储功能</b>
-                            ，动态生成
-                            一个优美快捷的个性导航页。实现导航键编辑导航地址功能；键盘快捷导航
-                            功能，敲击键盘字母跳转到绑定导航网址。
+                            是一个在线音乐盒子，
+                            实现了音乐分类、播放、暂停、下一首、可控进度条、动态歌词、收藏等功能。
+                            项目使用了<b class="highlight">vh、百分比、媒体查询</b>等比例缩放进行响应式布局，
+                            使用<b class="highlight">Ajax获取数据，解析数据并渲染至DOM</b>，运用<b class="highlight">jQuery</b>对DOM进行了操作，
+                            使用定时器（setInterval）对播放进度进行了控制，自己封装了一个jQuery插件，
+                            对歌词进行动态操作。
                         </li>
                         <li> <strong>项目源码: </strong><a
-                                href="https://github.com/118396/keyboard">github.com/118396/keyboard"</a></li>
+                                href="https://github.com/118396/keyboard">github.com/118396/i-music"</a></li>
                         <li> <strong>预览项目: </strong> <a
-                                href="https://118396.github.io/keyboard/">118396.github.io/keyboard</a></li>
+                                href="https://118396.github.io/i-music/index.html">118396.github.io/i-music</a></li>
                     </ul>
                 </div>
             </section>
@@ -332,6 +330,6 @@
         </main>
     </div>
     <script src="//at.alicdn.com/t/font_1293079_siekmuzejtf.js"></script>
-</body>
+</div>
 
 </html>
