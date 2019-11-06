@@ -15,7 +15,7 @@ body {
 
 
 .layout {
-    max-width: 900px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -133,6 +133,7 @@ section > .blog > ul >li >span{
 main {
     flex: 1;
     min-height: calc(100vh - 162px);
+    padding: 0 20px 0 10px;
 }
 main > section  .item  span{
     margin-right:80px; 
